@@ -28,6 +28,7 @@ let _textLabelHeight = _textLabel + String(_height)
 
 print(_textLabelHeight)
 
+// Use \() to include a floating-point calculation in a string and to include someone’s name in a greeting.
 
 let _apples = 3
 let _oranges = 5
@@ -40,7 +41,10 @@ print(_appleSummary)
 print(_orangeSummary)
 print(_fruitSummary)
 
-// Use \() to include a floating-point calculation in a string and to include someone’s name in a greeting.
+/* Use three double quotation marks (""") for strings that take up multiple lines.
+Indentation at the start of each quoted line is removed
+ as long as it matches the indentation of the closing quotation marks. For example 👇
+*/
 
 let quotation = """
 I said "I don't have vegetables"
