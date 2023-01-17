@@ -7,4 +7,14 @@ var _students = ["Ahmet","Abdullah","Abdulaziz","Ali","Yusuf"]
 
 _students[5] = "Mahmut"
 
-print(_students[4])
+
+var _vocabularies = [
+    "Game": "Oyun",
+    "Television": "Televizyon",
+    "Player": "Oyuncu",
+    "Parents": "Veliler"
+]
+
+_vocabularies["Languages"] = "Diller"
+
+print(_vocabularies)
