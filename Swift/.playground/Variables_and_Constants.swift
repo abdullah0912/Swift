@@ -39,3 +39,13 @@ let _fruitSummary = "In the total i have \(_apples+_oranges) pieces of fruits."
 print(_appleSummary)
 print(_orangeSummary)
 print(_fruitSummary)
+
+// Use \() to include a floating-point calculation in a string and to include someone’s name in a greeting.
+
+let quotation = """
+I said "I don't have vegetables"
+And then I said "I just have \(_apples + _oranges) pieces of fruit."
+"""
+print(quotation)
+
+
