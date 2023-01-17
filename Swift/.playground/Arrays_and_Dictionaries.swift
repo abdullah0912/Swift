@@ -5,8 +5,6 @@ A comma is allowed after the last element.
 
 var _students = ["Ahmet","Abdullah","Abdulaziz","Ali","Yusuf"]
 
-_students.add["Hakan"]
-_students.remove[0]
-_students.insert[5]
+_students[5] = "Mahmut"
 
-print(_students)
+print(_students[4])
